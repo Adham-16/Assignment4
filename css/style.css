@@ -3,9 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  height: 1000vh;
-}
 h1,
 h2,
 h3,
@@ -22,7 +19,9 @@ h6 {
 .main-header * {
   text-decoration: none;
 }
-
+.top-section .Subscribe:hover {
+  text-decoration: underline;
+}
 .top-section .logo {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
   font-size: 2.25rem;
@@ -81,6 +80,61 @@ nav.nav a:hover {
 }
 .Blog-Content .card-body a:hover {
   text-decoration: underline;
+}
+.Blog-Content .card-body h3 a {
+  font-weight: 700;
+}
+/* ********************************************* */
+.Blog-Post-main .blog-post:nth-child(1) h2 {
+  font-size: 40px;
+}
+.Blog-Post-main a {
+  text-decoration: none;
+}
+.Blog-Post-main a:hover {
+  text-decoration: underline;
+}
+.Blog-Post-main .blog-post {
+  margin-bottom: 4rem;
+}
+.Blog-Post-main .blog-post:nth-child(3) h2.blog-post-title,
+.Blog-Post-main .blog-post:nth-child(4) h2.blog-post-title {
+  font-size: 40px;
+  font-weight: 600;
+}
+.Blog-Post-main .blog-post:nth-child(3) .blog-post-meta,
+.Blog-Post-main .blog-post:nth-child(4) .blog-post-meta {
+  color: #a69999;
+}
+.Blog-Post-main .blog-pagination a {
+  border-radius: 25px !important;
+}
+.Blog-Post-main .blog-pagination a:nth-child(1) {
+  text-decoration: none;
+}
+.Blog-Post-main .blog-sidebar h4 {
+  font-style: italic;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 28px;
+}
+/* *************************************************** */
+.blog-footer {
+  margin-top: 63px;
+  padding: 2.5rem 0;
+  border-top: 0.05rem solid #e5e5e5;
+  background-color: #f9f9f9;
+  text-align: center;
+  color: #999;
+}
+footer a {
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
 }
 /* ***************************** */
 
